@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVALUATION TABLE</title>
+    <link rel="shortcut icon" href="./th (1).jpg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <section class="main">
+    <marquee behavior="" direction="left" class=" text-2xl" style="font-size: 45px;">Evaluation Table</marquee>
+    <center>
+    <div class="my-12">
+     <input type="text" class="rounded-l-full border-solid border-4 text-center border-[#6599bf]" placeholder="ROW" id="myI">
+     <input type="text" class="rounded-r-full border-solid border-4 text-center border-[#6599bf]" placeholder="COLUMN" id="myJ">
+    </div>
+ 
+       <div class=""> 
+         <br>
+          <button onclick="addition()"  class="bg-[#edefee] hover:bg-[#7a584c] text-black font-bold py-2 px- rounded-l-full md:w-28 w-24 text-xs md:text-sm">Addition➕</button>
+ 
+         <button onclick="subtraction()" class="bg-[#edefee] hover:bg-[#7a584c] text-black font-bold py-2 px- rounded-none md:w-28 w-24 text-xs md:text-sm">Subtraction➖</button>
+ 
+         <button onclick="multiplication()" class="bg-[#edefee] hover:bg-[#7a584c] text-black font-bold py-2 px- rounded-none md:w-28 w-24 text-xs md:text-sm">Multiplication❌</button>
+         <button onclick="division()"  class="bg-[#edefee] hover:bg-[#7a584c] text-black font-bold py-2 px- rounded-r-full md:w-28 w-24 text-xs md:text-sm">Division➗</button>
+     </div>
+ 
+        <div class="mt-6">
+         <table border="1" id="myTable" class="table-auto bg-orange-200 ">
+          
+         </table>
+        </div>
+ 
+ 
+         <div id="display" class="text-3xl text-black text-bold py-8 bg-fit w-3/5"></div>
+    </center>
+ 
+   </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
